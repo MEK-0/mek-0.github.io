@@ -135,6 +135,31 @@
     <div class="timeline">
 
 
+      <!-- METU ROMER -->
+      <article>
+        <time>September 2026</time>
+        <i></i>
+        <img src="assets/companies/romer_logo.png" alt="METU ROMER">
+        <div>
+          <h3>METU ROMER — Center for Robotics and Artificial Intelligence</h3>
+          <b>Observer Researcher — Robotics</b>
+          <p class="experience-meta">On-site · Ankara, Türkiye</p>
+
+          <p>
+            Completed a two-week observer research experience at METU ROMER, focusing on ROS-based robotics workflows and gaining exposure to Vision-Language-Action research for robotic manipulation. Studied the architecture and development workflow of a larger home-robotics system built around Isaac Sim.
+          </p>
+
+          <p>
+            Developed a lightweight MuJoCo-based adaptation of the robotics workflow so that the core simulation and control concepts could be explored locally on Apple Silicon hardware. The work focused on ROS 2 integration, robot simulation, control architecture, and a dual Franka Panda manipulation environment.
+          </p>
+
+          <a class="experience-link" href="https://github.com/MEK-0/Home-Robotics" target="_blank" rel="noopener">
+            View robotics project <span class="external-arrow">↗</span>
+          </a>
+        </div>
+      </article>
+
+
       <!-- MICROSOFT -->
       <article>
 
@@ -432,22 +457,35 @@
         </div>
       </article>
 
-      <!-- PROJECT 3 -->
-      <article class="window project project-card project-green">
-        <div class="windowbar"><span aria-hidden="true">◆</span><b>battery-rul.project</b></div>
+      <!-- HOME ROBOTICS -->
+      <article class="window project project-card project-lavender">
+        <div class="windowbar"><span aria-hidden="true">⚙</span><b>home-robotics.project</b></div>
         <div class="project-media">
-          <div class="project-placeholder"><span aria-hidden="true">◆</span><b>PROJECT 03</b></div>
-          <img src="assets/projects/project03.png" alt="NASA Li-Ion Battery RUL project preview" hidden>
+          <div class="project-placeholder"><span aria-hidden="true">⚙</span><b>PROJECT 03</b></div>
+          <img src="assets/projects/project08.png" alt="Home Robotics project preview" hidden>
         </div>
         <div class="body project-body">
-          <h3> Li-Ion Battery RUL Prediction with XAI &amp; Adaptive LSTM</h3>
+          <h3>Home Robotics</h3>
+          <p class="project-subtitle">Dual-Arm Household Manipulation with MuJoCo &amp; ROS 2</p>
           <div class="project-copy">
-            <p>Predicts remaining useful life from the NASA PCoE Li-Ion battery dataset using an LSTM and attention architecture. Attention provides explainability by showing which time steps influence the prediction across 4°C, 24°C, and 43°C operating conditions.</p>
-            <p>An adaptive padding and windowing strategy supports prediction from Cycle 0 and addresses cold-start behavior for short-life batteries such as B0032.</p>
+            <p>
+              An academic robotics project developing a modular household manipulation system with two Franka Emika Panda robots mounted on a shared linear rail. The simulation environment is built in MuJoCo with multiple work surfaces and household objects for manipulation experiments.
+            </p>
+
+            <p>
+              The current system includes dual Panda and gripper control, ROS 2 Jazzy integration, ros2_control hardware interfaces, trajectory controllers, TF, simulation time, deterministic reset, shared-rail safety, and validated controller startup. The next phase introduces MoveIt 2 for collision-aware motion planning before reliable pick-and-place and coordinated dual-arm manipulation.
+            </p>
           </div>
-          <p class="project-tech">Python · PyTorch · Deep Learning · LSTM · Attention · Explainable AI</p>
-          <strong class="project-result">Approximately 84% RMSE reduction was reported for the critical B0032 tested case; this is not presented as a universal result.</strong>
-          <div class="project-actions"><a href="viewer.html?file=assets%2Fdocuments%2FBattery_RUL_Technical_Documentation.pdf.pdf&amp;title=Battery%20RUL%20Technical%20Documentation">Documents <span class="external-arrow">↗</span></a></div>
+
+          <p class="project-tech">
+            Python · C++ · MuJoCo · ROS 2 Jazzy · ros2_control · Franka Emika Panda · MoveIt 2 · TF
+          </p>
+
+          <div class="project-actions">
+            <a href="https://github.com/MEK-0/Home-Robotics" target="_blank" rel="noopener">
+              GitHub <span class="external-arrow">↗</span>
+            </a>
+          </div>
         </div>
       </article>
 
@@ -535,6 +573,25 @@
           <div class="project-actions">
             <a href="https://github.com/MEK-0/dynamics-randomized-manipulation" target="_blank" rel="noopener">GitHub <span class="external-arrow">↗</span></a>
           </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 8 -->
+      <article class="window project project-card project-green">
+        <div class="windowbar"><span aria-hidden="true">◆</span><b>battery-rul.project</b></div>
+        <div class="project-media">
+          <div class="project-placeholder"><span aria-hidden="true">◆</span><b>PROJECT 08</b></div>
+          <img src="assets/projects/project03.png" alt="NASA Li-Ion Battery RUL project preview" hidden>
+        </div>
+        <div class="body project-body">
+          <h3> Li-Ion Battery RUL Prediction with XAI &amp; Adaptive LSTM</h3>
+          <div class="project-copy">
+            <p>Predicts remaining useful life from the NASA PCoE Li-Ion battery dataset using an LSTM and attention architecture. Attention provides explainability by showing which time steps influence the prediction across 4°C, 24°C, and 43°C operating conditions.</p>
+            <p>An adaptive padding and windowing strategy supports prediction from Cycle 0 and addresses cold-start behavior for short-life batteries such as B0032.</p>
+          </div>
+          <p class="project-tech">Python · PyTorch · Deep Learning · LSTM · Attention · Explainable AI</p>
+          <strong class="project-result">Approximately 84% RMSE reduction was reported for the critical B0032 tested case; this is not presented as a universal result.</strong>
+          <div class="project-actions"><a href="viewer.html?file=assets%2Fdocuments%2FBattery_RUL_Technical_Documentation.pdf.pdf&amp;title=Battery%20RUL%20Technical%20Documentation">Documents <span class="external-arrow">↗</span></a></div>
         </div>
       </article>
 
