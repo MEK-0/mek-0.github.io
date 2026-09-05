@@ -343,6 +343,12 @@ main {
    BUTTON
 ================================ */
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 .btn {
 
   display: inline-block;
